@@ -6,7 +6,8 @@ A free, zero-dependency starter addon for Godot 4 that gives you a **JSON item r
 
 ## Install
 
-1. In the editor open the **AssetLib** tab, search for `Modular Inventory Lite`, and install — or copy `addons/modular_inventory_lite/` into your project's `res://addons/` folder.
+1. Grab the addon folder `addons/modular_inventory_lite/` (download this repo as a ZIP, or `git clone` it) and copy it into your project's `res://addons/` folder.
+   > Also submitted to the **Godot Asset Library** as `Modular Inventory Lite` — it is currently in review. Once accepted you will also be able to install it straight from the editor's **AssetLib** tab.
 2. **Project → Project Settings → Plugins** and enable **Modular Grid Inventory Lite**. This registers the `ItemDBLite` autoload.
 
 ## Usage
@@ -49,6 +50,8 @@ grid.bind_bag(bag, 6)          # 6 columns
 | Transactional crafting / forge with atomic consume | — | Yes |
 
 Full kit (HTML5 demo you can play in the browser): **https://bzy375544.itch.io/godot4-grid-inventory-crafting**
+
+This Lite addon on itch.io (one-click download, no signup): **https://bzy375544.itch.io/godot4-grid-inventory-crafting-lite**
 
 ## License
 
